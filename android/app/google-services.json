@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847751392808",
+    "project_id": "transport-navigator-feef9",
+    "storage_bucket": "transport-navigator-feef9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847751392808:android:9cbdd5d69563b2bafacf1d",
+        "android_client_info": {
+          "package_name": "com.example.transport_navigator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqGKo95_qNVpOmmdURT4vLzvn0_Ez0uVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
