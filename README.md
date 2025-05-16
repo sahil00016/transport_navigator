@@ -1,16 +1,43 @@
-# transport_navigator
+# AI-Based Public Transport Navigator
 
-A new Flutter project.
+A Flutter app that optimizes public transport routes using AI (Dijkstra’s algorithm), displays routes on an OpenStreetMap (`flutter_map`), and stores user preferences and route history in Firebase Firestore. Features a dark-themed UI with `GoogleFonts.poppins` and a speed-vs-cost preference slider.
 
-## Getting Started
+## Features
+- **Route Optimization**: AI-driven route calculation based on speed and cost preferences.
+- **Interactive Map**: Displays routes with polylines on OpenStreetMap.
+- **Firebase Integration**: Saves routes and preferences to Firestore.
+- **Responsive UI**: Dark theme, animations, and intuitive navigation.
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/transport_navigator.git
+   cd transport_navigator
+   ```
+2. **Install Dependencies**:
+   ```bash
+   flutter pub get
+   ```
+3. **Add Firebase Configuration**:
+   - Download `google-services.json` from Firebase Console (Project Settings > Your Apps > Android).
+   - Place it in `android/app/`.
+4. **Run the App**:
+   ```bash
+   flutter run
+   ```
+   Ensure an emulator (e.g., `sdk gphone64 x86 64`) or physical device is connected.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
+- Flutter 3.0+
+- Dart 2.17+
+- JDK 11
+- Android SDK 34
+- Firebase project with Firestore enabled
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Troubleshooting
+- **Gradle Issues**: Ensure `JAVA_HOME` is set to your JDK path (e.g., `C:\Program Files\Java\jdk-11`).
+- **Firebase**: Verify `google-services.json` is correctly configured.
+- **Map**: Ensure internet permissions are set in `android/app/src/main/AndroidManifest.xml`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+MIT License
