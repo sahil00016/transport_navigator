@@ -1,6 +1,7 @@
 # AI-Based Public Transport Navigator
 
 A Flutter app that optimizes public transport routes using AI (Dijkstra’s algorithm), displays routes on an OpenStreetMap (`flutter_map`), and stores user preferences and route history in Firebase Firestore. Features a dark-themed UI with `GoogleFonts.poppins` and a speed-vs-cost preference slider.
+![dijisktra](https://github.com/user-attachments/assets/b0a9aaab-0426-4ea5-a4e9-5ef156261740)
 
 ## Features
 - **Route Optimization**: AI-driven route calculation based on speed and cost preferences.
